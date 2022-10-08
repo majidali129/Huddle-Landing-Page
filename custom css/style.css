@@ -1,0 +1,360 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+li a,
+a{
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: #000;
+}
+input,
+button,
+textarea{
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.secondary-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+.secondary-para{
+    font-size: 1.3rem;
+    margin-top: 1em;
+    color: #004646b2    ;
+    line-height: 1.5em;
+    letter-spacing:0.03em;
+}
+:root{
+    --primary:hsl(322, 100%, 66%);
+    --light-pink:hsl(321, 100%, 78%);    /* for hover active state and focus on input field and button border */
+    --light-red:hsl(0, 100%, 63%);    /* for error message  */
+    --neutral-dark-cyan:hsl(192, 100%, 9%);     /* for heading and footer bg  */
+    --neutral-pale-blue:hsl(207, 100%, 98%);       /* for social media icons hover state */
+    --heading-fw:700;
+    --heading-ff: 'Poppins', sans-serif;
+    --transition:all 0.3s ease-in-out;
+}
+.container{
+    max-width: 1300px;
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.nav{
+    /* border: 2px solid green; */
+    padding: 3em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo-container img{
+    display: inline-block;
+    height: 17px;
+    margin-top: -8px;
+}
+.nav .logo-container .logo-text{
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family:var(--heading-ff);
+}
+.offer-btn{
+    border: 1.5px solid var(--light-pink);
+    border-radius: 20px;
+    color: var(--primary);
+    transition: var(--transition) ;
+    padding: 0.5em 1.5em;
+}
+.offer-btn:hover{
+    box-shadow: 0px 0px 2px var(--light-pink);
+    color: var(--light-pink);
+    cursor: pointer;
+}
+
+/* ############### Home section start #############  */
+.home-section{
+    margin-top: 3em;
+    /* border: 1px solid green; */
+    padding: 8em 4em;
+    text-align: center;
+}
+.main-heading{
+    font-size:4rem;
+    font-weight: var(--heading-fw);
+    font-family:var(--heading-ff) ;
+    color: var(--neutral-dark-cyan);
+}
+.home-para{
+    /* color: var(--neutral-dark-cyan); */
+    color: #004646b2;
+    font-size: 1.4rem;
+    font-weight:500;
+    letter-spacing: 0.02em;
+}
+.starter-btn{
+    background-color: var(--primary);
+    padding: 1em 3em;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+.starter-btn:hover{
+    cursor: pointer;
+    background-color: var(--light-pink);
+}
+
+/* ########## Home section end #############  */
+
+
+/* ############ banner-section start #############  */
+
+.banner-section{
+    /* border: 1px solid green; */
+    margin-top: 2em;
+}
+.banner-section .banner-img{
+    height: 100vh;
+}
+.banner-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ############### banner-section end ##############  */
+
+/* ######## network section start #########  */
+.network-section{
+    margin-top: 4em;
+    /* border: 1px solid blue; */
+}
+.network-section .network{
+    /* border: 1px solid green; */
+    padding: 3em 0em;
+}
+.network-section .network .network-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.community,
+.message{
+    text-align: center;
+}
+.network-svg img{
+    display: inline-block;
+    height: 20px;
+    margin-left: -50px;
+}
+.network-section .network .primary-heading{
+    font-size: 5rem;
+    font-weight: var(--heading-fw) ;
+}
+.network-section .network .message-text,.community-text{
+    /* color: var(--neutral-dark-cyan); */
+    color: #004646b2;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* ########### network Section end ########### */
+
+/* ########### gathering section start ########### */
+.gathering-section{
+    padding: 1em 0em;
+    background-color: #f3fafd;
+    margin:-2px 0px;
+}
+.gathering-section .gathering-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gathering-section .gathering-container .gathering-text{
+    padding: 2em;
+    width: 40%;
+}
+.gathering-section .gathering-svg{
+    width: 40%;
+    /* padding: 5em; */
+    /* text-align: center; */
+}
+.gathering-section .gathering-container .gathering-svg figure img{
+height:230%;
+width: 100%;
+/* object-fit: fill; */
+}
+svg{
+    background-color: #fff;
+    display: block;
+}
+
+/* ########### gathering section end ########### */
+
+/* ########### conversation section Start ########### */
+.conversation-section{
+    /* border: 1px solid green; */
+    padding: 3em 0em;
+    /* margin-bottom: 10em; */
+}
+.conversation-section .conversation-wrapper{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conversation-wrapper .conversation-svg{
+    width: 40%;
+     /* border: 1px solid rebeccapurple; */
+}
+.conversation-wrapper .conversation-svg figure img{
+    height: 300px;
+    width: 100%;
+
+}
+.conversation-section  .conversation-text{
+    padding: 2em;
+    width: 40%;
+    /* border: 1px solid orange; */
+}
+/* ########### conversation section end ########### */
+
+/* ########### user section start ########### */
+.user-section{
+    /* padding: 3em 0em; */
+    /* border: 1px solid green; */
+    background-color: #f3fafd;
+}
+.user-section .user-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-section .user-wrapper .user-text{
+    padding: 2em;
+    width: 40%;
+}
+.user-section .user-wrapper .user-svg{
+    width: 40%;
+}
+.user-section .user-wrapper .user-svg figure img{
+    height: 230%;
+    width: 100%;
+}
+/* ########### user section end ########### */
+
+/* ############ Final section start ############  */
+.final-section{
+    /* border: 1px solid green; */
+    padding: 5em 0em;
+}
+.final-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.final-section .starter-btn{
+    margin-top: 1.5em;
+}
+
+/* ########### Final Section End #############  */
+
+/* ######### Footer start ############ */
+footer{
+    background-color:#00252e;
+    /* text-align: center; */
+}
+.footer-section{
+    /* border: 1px solid green; */
+    padding: 1em 4em;
+}
+.developer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-about-heading{
+    font-size: 3rem;
+    color: #fff;
+}
+.footer-about-para{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8em;
+}
+.mail-id, .phone-number{
+    font-size: 1.3rem;
+    margin-left: 1em;
+    color: #fff;
+}
+.message-svg{
+    display: block;
+}
+.footer-wrapper .developer-container .developer-wrapper .link-img{
+    color: #fff;
+height:13px;
+}
+
+.news-feed .footer-news-heading{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.news-feed .news-para{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.7em;
+}
+.news-feed .input-section #mail-address{
+    padding: 0.5em 1.4em;
+    margin-right: 1em;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.error-message{
+    color: red;
+    font-size: 1.1rem;
+}
+
+/* ########## footer end ############  */
+
+.developer-intro{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align:center;
+}
+.developer-intro a{
+    color:var(--light-pink);
+}
+
+

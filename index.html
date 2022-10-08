@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/42c4787602.js" crossorigin="anonymous"></script>
+  <script src="/script.js" defer></script>
+  <link rel="stylesheet" href="/custom css/style.css">  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+  </style>
+
+</head>
+<body>
+  <div class="container">
+
+  </div>
+
+  <!-- /** 
+  *! nav start
+  **/ -->
+  <div class="container">
+    <nav class="nav ">
+      <div class="logo-container">
+       <img src="/images/icon-messages.svg" alt="">
+       <span class="logo-text ">Huddle</span>
+      </div>
+      <div class="btn-section">
+       <button class="offer-btn btn">Try It Free</button>
+      </div>
+     </nav>
+  </div>
+  <!-- /** 
+  *! nav end
+  **/ -->
+
+  <!-- /** 
+  *! home start
+  **/ -->
+  <div class="home-section">
+    <div class="container">
+      <div class="home-text-section">
+        <h1 class="main-heading">Build The Community Your Fans Will Love</h1><br>
+        <p class="home-para">Huddle re-imagines the way we build communities. You have a <br> voice, but so does your audience . Create connections with your <br> users as you engage is genuine discussion.</p><br>
+        <button class="starter-btn">Get Started For Free</button>
+      </div>
+    </div>
+  </div>
+  <!-- /** 
+  *! home end
+  **/ -->
+
+   <!-- /** 
+  *!  banner section start
+  **/ -->
+
+  <div class="banner-section container">
+    <figure class="banner-img">
+      <img src="/images/screen-mockups.svg" alt="">
+    </figure>
+  </div>
+
+  <!-- /** 
+  *!  banner section end
+  **/ -->
+
+  <!-- /** 
+  *!  network section start
+  **/ -->
+  <section class="network-section">
+    <div class="container network">
+      <div class="network-wrapper ">
+        <div class=" community">
+          <figure class="network-svg"><img src="/images/icon-communities.svg" alt="Community-svg"></figure>
+          <h1 class="primary-heading">1.4K+</h1>
+          <span class="community-text">Communities Formed</span>
+        </div>
+        <div class=" message">
+          <figure class="network-svg"><img src="/images/icon-messages.svg" alt="message-svg"></figure>
+          <h1 class="primary-heading">2.7m+</h1>
+          <span class="message-text">Message Sent</span>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /** 
+  *!  network section end
+  **/ -->
+  <!-- /** 
+
+  *!  gathering section start
+  **/ -->
+  
+
+  <div class="upper-svg">
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 390" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(229.162, 237.605, 239.383, 0.404)" offset="0%"></stop><stop stop-color="rgba(223, 242, 246, 0.404)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="#f3fafd" d="M0,196L48,179.7C96,163,192,131,288,163.3C384,196,480,294,576,302.2C672,310,768,229,864,204.2C960,180,1056,212,1152,228.7C1248,245,1344,245,1440,220.5C1536,196,1632,147,1728,114.3C1824,82,1920,65,2016,106.2C2112,147,2208,245,2304,302.2C2400,359,2496,376,2592,392C2688,408,2784,425,2880,383.8C2976,343,3072,245,3168,236.8C3264,229,3360,310,3456,343C3552,376,3648,359,3744,326.7C3840,294,3936,245,4032,236.8C4128,229,4224,261,4320,302.2C4416,343,4512,392,4608,359.3C4704,327,4800,212,4896,187.8C4992,163,5088,229,5184,285.8C5280,343,5376,392,5472,392C5568,392,5664,343,5760,343C5856,343,5952,392,6048,408.3C6144,425,6240,408,6336,375.7C6432,343,6528,294,6624,269.5C6720,245,6816,245,6864,245L6912,245L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z"></path></svg>
+  </div>
+  <section>
+  <section class="gathering-section">
+    <div class="gathering-container container">
+      <div class="gathering-text">
+        <h2 class="secondary-heading">Grow together</h2><br>
+        <p class="secondary-para">Generate meaningful discussion with your audience and buile a <br> strong , loyal community. Think of the meaningful conversation you <br> miss out on with a feedback from. </p>
+      </div>
+      <div class="gathering-svg">
+        <figure>
+          <img src="/images/illustration-grow-together.svg" alt="">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 340" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(229.162, 237.605, 239.383, 0.404)" offset="0%"></stop><stop stop-color="rgba(223, 242, 246, 0.404)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="#f3fafd" d="M0,196L48,179.7C96,163,192,131,288,163.3C384,196,480,294,576,302.2C672,310,768,229,864,204.2C960,180,1056,212,1152,228.7C1248,245,1344,245,1440,220.5C1536,196,1632,147,1728,114.3C1824,82,1920,65,2016,106.2C2112,147,2208,245,2304,302.2C2400,359,2496,376,2592,392C2688,408,2784,425,2880,383.8C2976,343,3072,245,3168,236.8C3264,229,3360,310,3456,343C3552,376,3648,359,3744,326.7C3840,294,3936,245,4032,236.8C4128,229,4224,261,4320,302.2C4416,343,4512,392,4608,359.3C4704,327,4800,212,4896,187.8C4992,163,5088,229,5184,285.8C5280,343,5376,392,5472,392C5568,392,5664,343,5760,343C5856,343,5952,392,6048,408.3C6144,425,6240,408,6336,375.7C6432,343,6528,294,6624,269.5C6720,245,6816,245,6864,245L6912,245L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z"></path></svg>
+</section>
+
+<!-- /** 
+*!  gathering section end
+**/ -->
+<!-- /** 
+*!  conversation section start
+**/ -->
+<section class="conversation-section">
+  <div class="conversation-wrapper container">
+    <div class="conversation-svg">
+      <figure><img src="/images/illustration-flowing-conversation.svg" alt=""></figure>
+    </div>
+    <div class="conversation-text">
+      <h2 class="secondary-heading">Flowing Conversation</h2>
+      <p class="secondary-para">You would paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- /** 
+*!  conversation section end
+**/ -->
+
+<!-- /** 
+*!  user section start
+**/ -->
+
+<div class="user-upper-svg">
+  <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 320" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(229.162, 237.605, 239.383, 0.404)" offset="0%"></stop><stop stop-color="rgba(223, 242, 246, 0.404)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="#f3fafd" d="M0,147L48,187.8C96,229,192,310,288,302.2C384,294,480,196,576,163.3C672,131,768,163,864,212.3C960,261,1056,327,1152,294C1248,261,1344,131,1440,130.7C1536,131,1632,261,1728,277.7C1824,294,1920,196,2016,163.3C2112,131,2208,163,2304,204.2C2400,245,2496,294,2592,318.5C2688,343,2784,343,2880,302.2C2976,261,3072,180,3168,171.5C3264,163,3360,229,3456,261.3C3552,294,3648,294,3744,294C3840,294,3936,294,4032,261.3C4128,229,4224,163,4320,122.5C4416,82,4512,65,4608,89.8C4704,114,4800,180,4896,204.2C4992,229,5088,212,5184,187.8C5280,163,5376,131,5472,147C5568,163,5664,229,5760,236.8C5856,245,5952,196,6048,163.3C6144,131,6240,114,6336,155.2C6432,196,6528,294,6624,294C6720,294,6816,196,6864,147L6912,98L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z"></path></svg>
+</div>
+<section class="user-section">
+  <div class="user-wrapper container">
+    <div class="user-text">
+      <h2 class="secondary-heading">Your Users</h2>
+      <p class="secondary-para">It take no time at all to integrate huddle with your app's authentication solution. This means, one signed in to your app, your users can start chatting immediately.</p>
+    </div>
+    <div class="user-svg">
+      <figure><img src="/images/illustration-your-users.svg" alt=""></figure>
+    </div>
+  </div>
+
+  <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 320" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(229.162, 237.605, 239.383, 0.404)" offset="0%"></stop><stop stop-color="rgba(223, 242, 246, 0.404)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="#f3fafd" d="M0,196L40,228.7C80,261,160,327,240,302.2C320,278,400,163,480,98C560,33,640,16,720,81.7C800,147,880,294,960,302.2C1040,310,1120,180,1200,130.7C1280,82,1360,114,1440,130.7C1520,147,1600,147,1680,130.7C1760,114,1840,82,1920,114.3C2000,147,2080,245,2160,294C2240,343,2320,343,2400,343C2480,343,2560,343,2640,302.2C2720,261,2800,180,2880,163.3C2960,147,3040,196,3120,253.2C3200,310,3280,376,3360,343C3440,310,3520,180,3600,106.2C3680,33,3760,16,3840,73.5C3920,131,4000,261,4080,310.3C4160,359,4240,327,4320,277.7C4400,229,4480,163,4560,171.5C4640,180,4720,261,4800,261.3C4880,261,4960,180,5040,179.7C5120,180,5200,261,5280,253.2C5360,245,5440,147,5520,122.5C5600,98,5680,147,5720,171.5L5760,196L5760,490L5720,490C5680,490,5600,490,5520,490C5440,490,5360,490,5280,490C5200,490,5120,490,5040,490C4960,490,4880,490,4800,490C4720,490,4640,490,4560,490C4480,490,4400,490,4320,490C4240,490,4160,490,4080,490C4000,490,3920,490,3840,490C3760,490,3680,490,3600,490C3520,490,3440,490,3360,490C3280,490,3200,490,3120,490C3040,490,2960,490,2880,490C2800,490,2720,490,2640,490C2560,490,2480,490,2400,490C2320,490,2240,490,2160,490C2080,490,2000,490,1920,490C1840,490,1760,490,1680,490C1600,490,1520,490,1440,490C1360,490,1280,490,1200,490C1120,490,1040,490,960,490C880,490,800,490,720,490C640,490,560,490,480,490C400,490,320,490,240,490C160,490,80,490,40,490L0,490Z"></path></svg>
+</section>
+<!-- /** 
+*!  user section end
+**/ -->
+<!-- /** 
+*!  final section start
+**/ -->
+<section class="final-section">
+  <div class="container">
+    <h2 class="secondary-heading">Ready To Build Your Community</h2>
+    <button class="starter-btn">Get Started For Free</button>
+    
+  </div>
+</section>
+<!-- /** 
+*!  final section end
+**/ -->
+<!-- /** 
+*!  footer section start
+**/ -->
+
+<div class="footer-upper-svg">
+  
+  <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 340" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(243, 106, 62, 1)" offset="0%"></stop><stop stop-color="rgba(255, 179, 11, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="hsl(192, 100%, 9%)" d="M0,147L60,179.7C120,212,240,278,360,269.5C480,261,600,180,720,179.7C840,180,960,261,1080,277.7C1200,294,1320,245,1440,228.7C1560,212,1680,229,1800,245C1920,261,2040,278,2160,285.8C2280,294,2400,294,2520,269.5C2640,245,2760,196,2880,212.3C3000,229,3120,310,3240,318.5C3360,327,3480,261,3600,245C3720,229,3840,261,3960,294C4080,327,4200,359,4320,351.2C4440,343,4560,294,4680,302.2C4800,310,4920,376,5040,351.2C5160,327,5280,212,5400,212.3C5520,212,5640,327,5760,367.5C5880,408,6000,376,6120,302.2C6240,229,6360,114,6480,65.3C6600,16,6720,33,6840,73.5C6960,114,7080,180,7200,187.8C7320,196,7440,147,7560,171.5C7680,196,7800,294,7920,294C8040,294,8160,196,8280,187.8C8400,180,8520,261,8580,302.2L8640,343L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path></svg>
+</div>
+  <footer>
+    <section class="footer-section">
+      <div class="footer-wrapper container">
+        <div class="developer-container ">
+          <div class=" developer-wrapper">
+            <!-- <span><img src="/images/icon-messages.svg"   class="link-img message-svg" alt=""></span> -->
+            <h2 class="footer-about-heading">Huddle</h2><br>
+            <p class="footer-about-para">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Ratione eaque veniam, <br> assumenda unde dignissimos molestias?<br> Nam rem dolorem  placeat debitis.</p><br>
+            <div class="phone-container">
+              <span><img src="https://img.icons8.com/windows/45/FFFFFF/phone.png" class="link-img" /></span>
+              <span class="phone-number">Phone : +92 303-4975-429</span>
+            </div><br>
+            <div class="mail-container">
+              <span><img src="https://img.icons8.com/material/45/FFFFFF/gmail.png" class="link-img" /></span>
+              <span class="mail-id">lahmajidali@gmail.com</span>
+            </div>
+            <br>
+            <div class="social-media-container">
+            
+            <span class="instagram"><a href="https://www.instagram.com/invites/contact/?i=1k0q2tn5n5lc4&utm_content=g829rsz"><img   src="https://img.icons8.com/windows/50/FFFFFF/instagram-new.png"/></a></span>
+
+            <span class="facebood-icon">
+              <a href="https://www.facebook.com/profile.php?id=100011902201242"><img   src="https://img.icons8.com/sf-regular-filled/50/FFFFFF/facebook.png"/></a>
+            </span>
+            
+              <span class="github"><a href="https://github.com/majidali129"><img src="https://img.icons8.com/sf-black-filled/50/FFFFFF/github.png" alt=""></a></span>
+              
+              <span class="twitter">
+                <a href="https://twitter.com/its_Majid129?t=L5JtJWPbAF0OT-R0ndE2tQ&s=09"><img src="https://img.icons8.com/sf-ultralight-filled/50/FFFFFF/twitter-squared.png" /></a>
+              </span>
+
+            </div>
+          </div>
+
+          <div class="news-feed">
+            <h3 class="footer-news-heading">NEWSLETTER</h3><br>
+            <p class="news-para">To receive tips on how to grow your community, <br> sign up to our weekly newsletter. We'll never send <br> you spam or pass on your email address.</p><br><br>
+            <div class="input-section">
+              <input type="email" id="mail-address" placeholder="lahmajidali@gmail.com" required>
+              <button class="subscribe-btn starter-btn">Subscribe</button>
+            </div>
+            <span class="error-message"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span class="developer-intro">
+      <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/majid-ali-a31b09209"> Majid Ali </a>.
+    </p>
+  </span>
+  </footer>
+<!-- *!  footer section end -->
+
+</body>
+</html>
