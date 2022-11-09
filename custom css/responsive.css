@@ -1,0 +1,73 @@
+@media (max-width:568px){
+    .main-heading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .home-para{
+        width: 80%;
+    }
+    .secondary-heading{
+        font-size: 2.5rem;
+    }
+
+    .network-section .network .network-wrapper{
+        flex-direction: column;
+    }
+    .network-section .network-wrapper .message{
+        margin-top: 5em;
+    }
+    .network-section .network .primary-heading{
+        font-size: 3.8rem;
+    }
+
+    .gathering-section .gathering-container{
+        flex-direction: column;
+    }
+    .gathering-section .gathering-container .gathering-text,
+    .gathering-container .gathering-svg{
+        width: 80%;
+        padding: 0;
+        text-align: center;
+        margin: 2em 0em;
+    }
+
+    .conversation-section .conversation-wrapper{
+        flex-direction: column;
+    }
+    .conversation-wrapper .conversation-svg,
+    .conversation-wrapper .conversation-text{
+        width: 80%;
+        text-align: center;
+        padding: 0;
+        margin: 2em 0em;
+    }
+
+
+    .user-section .user-wrapper{
+        flex-direction: column;
+    }
+    .user-section .user-wrapper .user-text,
+    .user-section .user-wrapper .user-svg{
+        width: 80%;
+        padding: 0;
+        margin: 2.5em 0em;
+        text-align: center;
+    }
+
+
+    .developer-container{
+        flex-direction: column;
+    }
+    .developer-wrapper,
+    .news-feed{
+        margin: 2em 0em;
+    }
+    .news-feed .input-section #mail-address{
+        width: 90%;
+    }
+    .news-feed .input-section .subscribe-btn{
+        float: right;
+    }
+    
+
+}

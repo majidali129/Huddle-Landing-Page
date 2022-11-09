@@ -36,12 +36,12 @@ body{
     /* overflow: hidden; */
 }
 .secondary-heading{
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 0.01em;
+    font-size: 3.2rem;
+    font-weight: 600;
+    /* letter-spacing: 0.01em; */
 }
 .secondary-para{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 1em;
     color: #004646b2    ;
     line-height: 1.5em;
@@ -98,7 +98,14 @@ body{
     margin-top: 3em;
     /* border: 1px solid green; */
     padding: 8em 4em;
-    text-align: center;
+    /* text-align: center; */
+}
+.home-section .home-text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .main-heading{
     font-size:4rem;
@@ -108,10 +115,13 @@ body{
 }
 .home-para{
     /* color: var(--neutral-dark-cyan); */
+    width: 50%;
+    text-align: center;
     color: #004646b2;
     font-size: 1.4rem;
     font-weight:500;
     letter-spacing: 0.02em;
+    margin-bottom: 1em;
 }
 .starter-btn{
     background-color: var(--primary);
@@ -199,8 +209,10 @@ body{
 .gathering-section .gathering-container .gathering-text{
     padding: 2em;
     width: 40%;
+    /* border: 1px solid green; */
 }
 .gathering-section .gathering-svg{
+    /* border: 1px solid green; */
     width: 40%;
     /* padding: 5em; */
     /* text-align: center; */
@@ -220,7 +232,7 @@ svg{
 /* ########### conversation section Start ########### */
 .conversation-section{
     /* border: 1px solid green; */
-    padding: 3em 0em;
+    padding: 1em 0em;
     /* margin-bottom: 10em; */
 }
 .conversation-section .conversation-wrapper{
@@ -232,13 +244,15 @@ svg{
 .conversation-wrapper .conversation-svg{
     width: 40%;
      /* border: 1px solid rebeccapurple; */
+     /* height: 180px; */
 }
 .conversation-wrapper .conversation-svg figure img{
     height: 300px;
     width: 100%;
+    /* object-fit: cover; */
 
 }
-.conversation-section  .conversation-text{
+.conversation-wrapper  .conversation-text{
     padding: 2em;
     width: 40%;
     /* border: 1px solid orange; */
@@ -293,11 +307,11 @@ footer{
 }
 .footer-section{
     /* border: 1px solid green; */
-    padding: 1em 4em;
+    padding: 1em 2em;
 }
 .developer-container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -340,6 +354,7 @@ height:13px;
     border-radius: 5px;
     border: none;
     outline: none;
+    margin-bottom: 2em;
 }
 .error-message{
     color: red;
